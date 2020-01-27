@@ -4,12 +4,24 @@ namespace Practica_1
 {
     class Program
     {
-        string nombre = "Vianney";
+        //Variable de la clase.
+        static string nombre = "Vianney";
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola, " + this.nombre);
-            Console.GetKey();
+            if (nombre=args[0])
+            {
+                //Respondemos con el primer argumento.
+                Console.WriteLine($"Hola {args[0]} {args[1]}");
+            }
+
+            else
+            {
+                Console.WriteLine("Incorrecto");
+            }
+            
+            
+
         }
     }
 }
