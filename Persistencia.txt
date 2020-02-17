@@ -1,0 +1,7 @@
+La persistencia se refiera a la capacidad que tienen los datos 
+para que se mantengan, o de cierta forma decir que sobrevivan. 
+Se trata de mantener la misma informacion en un objeto de 
+forma tipo permanente, que se quede almacenado en una memoria, 
+y que tengamos la capacidad de recuperarlo y accesar a esa 
+informacion para poder leerlo o poder volver a utilizarlo. Es 
+decir, que no se borre y se pierda. 
