@@ -5,7 +5,7 @@ namespace Practica_1
     class Program
     {
         //Variable de la clase.
-        static string nombre = "Vianney";
+        static string nombre = "Yuu";
 
         static void Main(string[] args)
         {
