@@ -14,10 +14,10 @@ namespace PracticaDos
             Console.WriteLine("CalculAPP");
             Console.WriteLine("----------\n");
             bool close_app = false; 
-            public int valor1 = 0;
-            public int valor2 = 0;
-            public float result = 0;
-            public bool reut = false;
+             int valor1 = 0;
+             int valor2 = 0;
+             float result = 0;
+             bool reut = false;
             {
                 while (!close_app)
                 {
@@ -26,8 +26,9 @@ namespace PracticaDos
                     Console.WriteLine("2.- Resta");
                     Console.WriteLine("3.- Multiplicacion");
                     Console.WriteLine("4.- Division");
-                    Console.WriteLine("5.- para reutilizar el resultado anterior");
+                    Console.WriteLine("5.- para reutilizar el resultado anterior");                    
                     Console.WriteLine("6.-  para salir");
+                    Console.WriteLine("m Memoria");
                     string selec = Console.ReadLine();
 
 
@@ -53,6 +54,15 @@ namespace PracticaDos
                             reut = true;
                             break;
 
+                        case "m": 
+                            Memoria memo = new Memoria();
+                            memo.leerMemoria();
+                            break;
+                            //Elegir la opcion de resultado en nuestra memoria
+                            // y reutilixarla en alguna operacion.
+                            //1. Crear metodo que nos regrese el resultado seleccionado
+                            //2. Utilixar el resultado en una nueva operacion
+                            //3. Guardar la nueva operacion en nuestra db.json
 
 
                     }
