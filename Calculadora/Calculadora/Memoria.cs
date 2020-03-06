@@ -45,4 +45,24 @@ namespace PracticaDos
         }
 
     }
+
+    public void Arreglo()
+    {
+        string[] Colores = { "Rojo", "Blanco", "Morado" };
+        Array.Reverse(Colores);
+        Array.ForEach(Colores, (item) =>
+        {
+            Console.WriteLine(item);
+
+        });
+
+        String color = Array.Find(Colores, (item) => {
+            return item.Length > 4;
+        });
+        Console.WriteLine(color);
+        Console.WriteLine("Accede tus colores y separalos con comas(,)");
+        String colorUser = Console.ReadLine();
+        string[] newColors = colorUser.Split(' ');
+        Console.WriteLine(newColors);
+        
 }
